@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <style>
+        .jumbotron{
+            background-color: yellow;
+            color: red;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+    <h1>My First Bootstrap Page</h1>
+    <p>Hello bootstrap</p>
+        <h1> <span class="glyphicon glyphicon-heart">
+
+        </span> The kittens Images</h1>
+        <img src="C:\Users\e\WebstormProjects\node application\week2bootstrap\picture1.png" height="200" width="200">
+</div>
+</div>
+<div class="jumbotron">
+<h1> Sun Images</h1>
+<img src="C:\Users\e\WebstormProjects\node application\week2bootstrap\picture2.jpeg" height="200" width="200">
+<h1> Displayed in a Cirle</h1>
+<img class="img-circle" src="C:\Users\e\WebstormProjects\node application\week2bootstrap\picture2.jpeg">
+<h1>with Rounded corner</h1>
+<img class="img-rounded" src="C:\Users\e\WebstormProjects\node application\week2bootstrap\picture2.jpeg">
+<img class="img-thumbnail" src="C:\Users\e\WebstormProjects\node application\week2bootstrap\picture2.jpeg">
+</div>
+<p class="text-center">The Bootstrap Button</p>
+<button type="button" class="btn btn-danger">Delete everything</button>
+<button type="button" class="btn btn-warning">This is Bad</button>
+<button type="button" class="btn btn-default">Regular Button</button>
+<button type="button" class="btn btn-info">More Info</button>
+<button type="button" class="btn btn-primary">Recommende to Click Here</button>
+<button type="button" class="btn btn-success"> Positive Button</button>
+<h1>This Is DropDown</h1>
+<div class="container">
+    <div class="jumbotron">
+<div class="dropdown">
+<button class="btn btn-default dropdown-toggle" type="button" id="animaldropdown" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="true">
+    Animal
+
+    <span class="caret"></span>
+</button>
+    <ul class="dropdown-menu" aria-labelledby="animaldropdown">
+        <li><a href="https://en.wikipedia.org/wiki/cat">Cats</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/bird">Birds</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/rabbit">Rabbits</a></li>
+    </ul>
+</div>
+</div>
+</div>
+<h1>This is Tabs</h1>
+<ul class="nav nav-tabs">
+    <li role="presentation" class="active"><a href="#cats" aria-controls="cats" role="tab" data-toggle="tab">Cats</a></li>
+    <li role="presentation"><a href="#birds"  aria-controls="birds" role="tab" data-toggle="tab">Birds</a></li>
+    <li role="presentation"><a href="#rabbits"  aria-controls="rabbits" role="tab" data-toggle="tab">Rabbits</a></li>
+</ul>
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="cats">A domestic animal that says 'meow'.</div>
+    <div role="tabpanel" class="tab-pane" id="birds">Birds are descended from dinosaurs.</div>
+    <div role="tabpanel" class="tab-pane" id="rabbits">There are a number of wild rabbits in my back yard.</div>
+</div>
+
+<P>Here are some navigation pills. They behave like tabs, just with different styling. </P>
+<h1>Navigation pills</h1>
+<ul class="nav nav-pills">
+    <li role="presentation" class="active"><a href="#penguins" aria-controls="penguins" role="tab" data-toggle="tab">Penguins</a></li>
+    <li role="presentation"><a href="#polarbears"  aria-controls="polarbears" role="tab" data-toggle="tab">Polar Bears</a></li>
+    <li role="presentation"><a href="#seals"  aria-controls="seals" role="tab" data-toggle="tab">Seals</a></li>
+</ul>
+
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="penguins">Black and white flightless birds that are excellent swimmers.</div>
+    <div role="tabpanel" class="tab-pane" id="polarbears">Polar bears live in the arctic. They can swim for miles.</div>
+    <div role="tabpanel" class="tab-pane" id="seals">Seals are excellent swimmers too.</div>
+</div>
+
+<div class="container">
+    <h1>Computer programming</h1>
+<div class="row">
+
+    <div class="col-sm-6">
+        <img src="picture23.jpeg" height="200" width="200">
+    </div>
+    </div>
+
+        <div class="col-sm-6">
+        <h1>List Of Programming Language</h1>
+        <ul>
+            <li>Java</li>
+            <li>C#</li>
+            <li>Pytthon</li>
+            <li>C++</li>
+            <li>Javascript</li>
+        </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</body>
+</html>

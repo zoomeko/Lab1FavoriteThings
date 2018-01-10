@@ -1,0 +1,443 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData assert
+20 silly mapToRegistry name assert
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'assert',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'assert',
+23 silly mapToRegistry   name: 'assert',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/assert
+25 silly fetchNamedPackageData express-handlebars
+26 silly mapToRegistry name express-handlebars
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'express-handlebars',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'express-handlebars',
+29 silly mapToRegistry   name: 'express-handlebars',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/express-handlebars
+31 silly fetchNamedPackageData mongodb
+32 silly mapToRegistry name mongodb
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'mongodb',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'mongodb',
+35 silly mapToRegistry   name: 'mongodb',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+37 verbose request uri https://registry.npmjs.org/assert
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 12:32:50 AM
+40 verbose request id 42ef5180fbb0454e
+41 verbose etag W/"597c319a-404b"
+42 verbose lastModified Sat, 29 Jul 2017 06:56:26 GMT
+43 http request GET https://registry.npmjs.org/assert
+44 verbose request uri https://registry.npmjs.org/express-handlebars
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 12:32:50 AM
+47 verbose etag W/"597c9914-b21d"
+48 verbose lastModified Sat, 29 Jul 2017 14:17:56 GMT
+49 http request GET https://registry.npmjs.org/express-handlebars
+50 verbose request uri https://registry.npmjs.org/mongodb
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 12:32:50 AM
+53 verbose etag W/"59854718-98a49"
+54 verbose lastModified Sat, 05 Aug 2017 04:18:32 GMT
+55 http request GET https://registry.npmjs.org/mongodb
+56 http 304 https://registry.npmjs.org/assert
+57 verbose headers { date: 'Sat, 05 Aug 2017 05:32:49 GMT',
+57 verbose headers   via: '1.1 varnish',
+57 verbose headers   'cache-control': 'max-age=300',
+57 verbose headers   etag: 'W/"597c319a-404b"',
+57 verbose headers   age: '123',
+57 verbose headers   connection: 'keep-alive',
+57 verbose headers   'x-served-by': 'cache-atl6221-ATL',
+57 verbose headers   'x-cache': 'HIT',
+57 verbose headers   'x-cache-hits': '1',
+57 verbose headers   'x-timer': 'S1501911170.803134,VS0,VE1',
+57 verbose headers   vary: 'Accept-Encoding, Accept' }
+58 silly get cb [ 304,
+58 silly get   { date: 'Sat, 05 Aug 2017 05:32:49 GMT',
+58 silly get     via: '1.1 varnish',
+58 silly get     'cache-control': 'max-age=300',
+58 silly get     etag: 'W/"597c319a-404b"',
+58 silly get     age: '123',
+58 silly get     connection: 'keep-alive',
+58 silly get     'x-served-by': 'cache-atl6221-ATL',
+58 silly get     'x-cache': 'HIT',
+58 silly get     'x-cache-hits': '1',
+58 silly get     'x-timer': 'S1501911170.803134,VS0,VE1',
+58 silly get     vary: 'Accept-Encoding, Accept' } ]
+59 verbose etag https://registry.npmjs.org/assert from cache
+60 verbose get saving assert to C:\Users\e\AppData\Roaming\npm-cache\registry.npmjs.org\assert\.cache.json
+61 verbose correctMkdir C:\Users\e\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+62 http 304 https://registry.npmjs.org/express-handlebars
+63 verbose headers { date: 'Sat, 05 Aug 2017 05:32:49 GMT',
+63 verbose headers   via: '1.1 varnish',
+63 verbose headers   'cache-control': 'max-age=300',
+63 verbose headers   etag: 'W/"597c9914-b21d"',
+63 verbose headers   age: '254',
+63 verbose headers   connection: 'keep-alive',
+63 verbose headers   'x-served-by': 'cache-atl6232-ATL',
+63 verbose headers   'x-cache': 'HIT',
+63 verbose headers   'x-cache-hits': '1',
+63 verbose headers   'x-timer': 'S1501911170.820143,VS0,VE0',
+63 verbose headers   vary: 'Accept-Encoding, Accept' }
+64 silly get cb [ 304,
+64 silly get   { date: 'Sat, 05 Aug 2017 05:32:49 GMT',
+64 silly get     via: '1.1 varnish',
+64 silly get     'cache-control': 'max-age=300',
+64 silly get     etag: 'W/"597c9914-b21d"',
+64 silly get     age: '254',
+64 silly get     connection: 'keep-alive',
+64 silly get     'x-served-by': 'cache-atl6232-ATL',
+64 silly get     'x-cache': 'HIT',
+64 silly get     'x-cache-hits': '1',
+64 silly get     'x-timer': 'S1501911170.820143,VS0,VE0',
+64 silly get     vary: 'Accept-Encoding, Accept' } ]
+65 verbose etag https://registry.npmjs.org/express-handlebars from cache
+66 verbose get saving express-handlebars to C:\Users\e\AppData\Roaming\npm-cache\registry.npmjs.org\express-handlebars\.cache.json
+67 verbose correctMkdir C:\Users\e\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+68 http 304 https://registry.npmjs.org/mongodb
+69 verbose headers { date: 'Sat, 05 Aug 2017 05:32:49 GMT',
+69 verbose headers   via: '1.1 varnish',
+69 verbose headers   'cache-control': 'max-age=300',
+69 verbose headers   etag: 'W/"59854718-98a49"',
+69 verbose headers   age: '0',
+69 verbose headers   connection: 'keep-alive',
+69 verbose headers   'x-served-by': 'cache-atl6244-ATL',
+69 verbose headers   'x-cache': 'HIT',
+69 verbose headers   'x-cache-hits': '1',
+69 verbose headers   'x-timer': 'S1501911170.882166,VS0,VE38',
+69 verbose headers   vary: 'Accept-Encoding, Accept' }
+70 silly get cb [ 304,
+70 silly get   { date: 'Sat, 05 Aug 2017 05:32:49 GMT',
+70 silly get     via: '1.1 varnish',
+70 silly get     'cache-control': 'max-age=300',
+70 silly get     etag: 'W/"59854718-98a49"',
+70 silly get     age: '0',
+70 silly get     connection: 'keep-alive',
+70 silly get     'x-served-by': 'cache-atl6244-ATL',
+70 silly get     'x-cache': 'HIT',
+70 silly get     'x-cache-hits': '1',
+70 silly get     'x-timer': 'S1501911170.882166,VS0,VE38',
+70 silly get     vary: 'Accept-Encoding, Accept' } ]
+71 verbose etag https://registry.npmjs.org/mongodb from cache
+72 verbose get saving mongodb to C:\Users\e\AppData\Roaming\npm-cache\registry.npmjs.org\mongodb\.cache.json
+73 verbose correctMkdir C:\Users\e\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+74 silly resolveWithNewModule assert@1.4.1 checking installable status
+75 silly cache add args [ 'assert@1.4.1', null ]
+76 verbose cache add spec assert@1.4.1
+77 silly cache add parsed spec Result {
+77 silly cache add   raw: 'assert@1.4.1',
+77 silly cache add   scope: null,
+77 silly cache add   escapedName: 'assert',
+77 silly cache add   name: 'assert',
+77 silly cache add   rawSpec: '1.4.1',
+77 silly cache add   spec: '1.4.1',
+77 silly cache add   type: 'version' }
+78 silly addNamed assert@1.4.1
+79 verbose addNamed "1.4.1" is a plain semver version for assert
+80 silly mapToRegistry name assert
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'assert',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'assert',
+83 silly mapToRegistry   name: 'assert',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/assert
+85 verbose addNameVersion registry:https://registry.npmjs.org/assert not in flight; fetching
+86 silly fetchNamedPackageData No valid target from cache, forcing network
+87 verbose request uri https://registry.npmjs.org/express-handlebars
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 12:32:51 AM
+90 http request GET https://registry.npmjs.org/express-handlebars
+91 verbose get https://registry.npmjs.org/assert not expired, no request
+92 silly resolveWithNewModule mongodb@2.2.30 checking installable status
+93 silly cache add args [ 'mongodb@~2.2.14', null ]
+94 verbose cache add spec mongodb@~2.2.14
+95 silly cache add parsed spec Result {
+95 silly cache add   raw: 'mongodb@~2.2.14',
+95 silly cache add   scope: null,
+95 silly cache add   escapedName: 'mongodb',
+95 silly cache add   name: 'mongodb',
+95 silly cache add   rawSpec: '~2.2.14',
+95 silly cache add   spec: '>=2.2.14 <2.3.0',
+95 silly cache add   type: 'range' }
+96 silly addNamed mongodb@>=2.2.14 <2.3.0
+97 verbose addNamed ">=2.2.14 <2.3.0" is a valid semver range for mongodb
+98 silly addNameRange { name: 'mongodb', range: '>=2.2.14 <2.3.0', hasData: false }
+99 silly mapToRegistry name mongodb
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry data Result {
+102 silly mapToRegistry   raw: 'mongodb',
+102 silly mapToRegistry   scope: null,
+102 silly mapToRegistry   escapedName: 'mongodb',
+102 silly mapToRegistry   name: 'mongodb',
+102 silly mapToRegistry   rawSpec: '',
+102 silly mapToRegistry   spec: 'latest',
+102 silly mapToRegistry   type: 'tag' }
+103 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+104 verbose addNameRange registry:https://registry.npmjs.org/mongodb not in flight; fetching
+105 silly cache afterAdd assert@1.4.1
+106 verbose afterAdd C:\Users\e\AppData\Roaming\npm-cache\assert\1.4.1\package\package.json not in flight; writing
+107 verbose correctMkdir C:\Users\e\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+108 verbose get https://registry.npmjs.org/mongodb not expired, no request
+109 silly addNameRange number 2 { name: 'mongodb', range: '>=2.2.14 <2.3.0', hasData: true }
+110 silly addNameRange versions [ 'mongodb',
+110 silly addNameRange   [ '0.9.4',
+110 silly addNameRange     '0.9.4-4',
+110 silly addNameRange     '0.9.3',
+110 silly addNameRange     '0.9.1',
+110 silly addNameRange     '0.9.2',
+110 silly addNameRange     '0.9.6-7',
+110 silly addNameRange     '0.9.6-8',
+110 silly addNameRange     '0.9.6-9',
+110 silly addNameRange     '0.9.6-10',
+110 silly addNameRange     '0.9.6-11',
+110 silly addNameRange     '0.9.6-12',
+110 silly addNameRange     '0.9.6-13',
+110 silly addNameRange     '0.9.6-14',
+110 silly addNameRange     '0.9.6-15',
+110 silly addNameRange     '0.9.6-16',
+110 silly addNameRange     '0.9.6-17',
+110 silly addNameRange     '0.9.6-18',
+110 silly addNameRange     '0.9.6-19',
+110 silly addNameRange     '0.9.6-20',
+110 silly addNameRange     '0.9.6-21',
+110 silly addNameRange     '0.9.6-22',
+110 silly addNameRange     '0.9.6-23',
+110 silly addNameRange     '0.9.7',
+110 silly addNameRange     '0.9.7-0',
+110 silly addNameRange     '0.9.7-1',
+110 silly addNameRange     '0.9.7-1.1',
+110 silly addNameRange     '0.9.7-1.2',
+110 silly addNameRange     '0.9.7-1.3',
+110 silly addNameRange     '0.9.7-1.4',
+110 silly addNameRange     '0.9.7-2',
+110 silly addNameRange     '0.9.7-2-1',
+110 silly addNameRange     '0.9.7-2-2',
+110 silly addNameRange     '0.9.7-2-3',
+110 silly addNameRange     '0.9.7-2-4',
+110 silly addNameRange     '0.9.7-2-5',
+110 silly addNameRange     '0.9.7-3',
+110 silly addNameRange     '0.9.7-3-1',
+110 silly addNameRange     '0.9.7-3-2',
+110 silly addNameRange     '0.9.7-3-3',
+110 silly addNameRange     '0.9.7-3-4',
+110 silly addNameRange     '0.9.7-3-5',
+110 silly addNameRange     '0.9.8',
+110 silly addNameRange     '0.9.8-1',
+110 silly addNameRange     '0.9.8-2',
+110 silly addNameRange     '0.9.8-3',
+110 silly addNameRange     '0.9.8-4',
+110 silly addNameRange     '0.9.8-5',
+110 silly addNameRange     '0.9.8-6',
+110 silly addNameRange     '0.9.8-7',
+110 silly addNameRange     '0.9.9',
+110 silly addNameRange     '0.9.9-1',
+110 silly addNameRange     '0.9.9-2',
+110 silly addNameRange     '0.9.9-3',
+110 silly addNameRange     '0.9.9-4',
+110 silly addNameRange     '0.9.9-5',
+110 silly addNameRange     '0.9.9-6',
+110 silly addNameRange     '0.9.9-7',
+110 silly addNameRange     '0.9.9-8',
+110 silly addNameRange     '1.0.0',
+110 silly addNameRange     '1.0.1',
+110 silly addNameRange     '1.0.2',
+110 silly addNameRange     '1.1.0-beta',
+110 silly addNameRange     '1.1.0',
+110 silly addNameRange     '1.1.1',
+110 silly addNameRange     '1.1.2',
+110 silly addNameRange     '1.1.3',
+110 silly addNameRange     '1.1.4',
+110 silly addNameRange     '1.1.5',
+110 silly addNameRange     '1.1.6',
+110 silly addNameRange     '1.1.7',
+110 silly addNameRange     '1.1.8',
+110 silly addNameRange     '1.1.9',
+110 silly addNameRange     '1.1.10',
+110 silly addNameRange     '1.1.11',
+110 silly addNameRange     '1.2.0',
+110 silly addNameRange     '1.2.1',
+110 silly addNameRange     '1.2.2',
+110 silly addNameRange     '1.2.3',
+110 silly addNameRange     '1.2.4',
+110 silly addNameRange     '1.2.5',
+110 silly addNameRange     '1.2.6',
+110 silly addNameRange     '1.2.7',
+110 silly addNameRange     '1.2.8',
+110 silly addNameRange     '1.2.9',
+110 silly addNameRange     '1.2.10',
+110 silly addNameRange     '1.2.11',
+110 silly addNameRange     '1.2.12',
+110 silly addNameRange     '1.2.13',
+110 silly addNameRange     '1.2.14',
+110 silly addNameRange     '1.3.0',
+110 silly addNameRange     '1.3.1',
+110 silly addNameRange     '1.3.2',
+110 silly addNameRange     '1.3.3',
+110 silly addNameRange     '1.3.4',
+110 silly addNameRange     '1.3.5',
+110 silly addNameRange     '1.3.6',
+110 silly addNameRange     '1.3.7',
+110 silly addNameRange     '1.3.8',
+110 silly addNameRange     '1.3.9',
+110 silly addNameRange     '1.3.10',
+110 silly addNameRange     ... 178 more items ] ]
+111 silly addNamed mongodb@2.2.30
+112 verbose addNamed "2.2.30" is a plain semver version for mongodb
+113 silly mapToRegistry name mongodb
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry data Result {
+116 silly mapToRegistry   raw: 'mongodb',
+116 silly mapToRegistry   scope: null,
+116 silly mapToRegistry   escapedName: 'mongodb',
+116 silly mapToRegistry   name: 'mongodb',
+116 silly mapToRegistry   rawSpec: '',
+116 silly mapToRegistry   spec: 'latest',
+116 silly mapToRegistry   type: 'tag' }
+117 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+118 verbose addRemoteTarball https://registry.npmjs.org/mongodb/-/mongodb-2.2.30.tgz not in flight; adding
+119 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongodb/-/mongodb-2.2.30.tgz',
+119 verbose addRemoteTarball   '8ccd801f676c8172040c2f2b47e9602a0d5634ab' ]
+120 verbose afterAdd C:\Users\e\AppData\Roaming\npm-cache\assert\1.4.1\package\package.json written
+121 info retry fetch attempt 1 at 12:32:51 AM
+122 info attempt registry request try #1 at 12:32:51 AM
+123 http fetch GET https://registry.npmjs.org/mongodb/-/mongodb-2.2.30.tgz
+124 http 200 https://registry.npmjs.org/express-handlebars
+125 verbose headers { server: 'nginx/1.10.1',
+125 verbose headers   'content-type': 'application/json',
+125 verbose headers   'last-modified': 'Sat, 29 Jul 2017 14:17:56 GMT',
+125 verbose headers   etag: 'W/"597c9914-b21d"',
+125 verbose headers   'content-encoding': 'gzip',
+125 verbose headers   'cache-control': 'max-age=300',
+125 verbose headers   'content-length': '10189',
+125 verbose headers   'accept-ranges': 'bytes',
+125 verbose headers   date: 'Sat, 05 Aug 2017 05:32:50 GMT',
+125 verbose headers   via: '1.1 varnish',
+125 verbose headers   age: '255',
+125 verbose headers   connection: 'keep-alive',
+125 verbose headers   'x-served-by': 'cache-atl6221-ATL',
+125 verbose headers   'x-cache': 'HIT',
+125 verbose headers   'x-cache-hits': '1',
+125 verbose headers   'x-timer': 'S1501911170.122764,VS0,VE0',
+125 verbose headers   vary: 'Accept-Encoding, Accept' }
+126 silly get cb [ 200,
+126 silly get   { server: 'nginx/1.10.1',
+126 silly get     'content-type': 'application/json',
+126 silly get     'last-modified': 'Sat, 29 Jul 2017 14:17:56 GMT',
+126 silly get     etag: 'W/"597c9914-b21d"',
+126 silly get     'content-encoding': 'gzip',
+126 silly get     'cache-control': 'max-age=300',
+126 silly get     'content-length': '10189',
+126 silly get     'accept-ranges': 'bytes',
+126 silly get     date: 'Sat, 05 Aug 2017 05:32:50 GMT',
+126 silly get     via: '1.1 varnish',
+126 silly get     age: '255',
+126 silly get     connection: 'keep-alive',
+126 silly get     'x-served-by': 'cache-atl6221-ATL',
+126 silly get     'x-cache': 'HIT',
+126 silly get     'x-cache-hits': '1',
+126 silly get     'x-timer': 'S1501911170.122764,VS0,VE0',
+126 silly get     vary: 'Accept-Encoding, Accept' } ]
+127 verbose get saving express-handlebars to C:\Users\e\AppData\Roaming\npm-cache\registry.npmjs.org\express-handlebars\.cache.json
+128 verbose correctMkdir C:\Users\e\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+129 silly fetchPackageMetaData Error: No compatible version found: express-handlebars@~3.0.1
+129 silly fetchPackageMetaData Valid install targets:
+129 silly fetchPackageMetaData 3.0.0, 2.0.1, 2.0.0, 1.2.2, 1.2.1, 1.2.0, 1.1.0, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-rc-2, 1.0.0-rc-1, 0.0.2, 0.0.1
+129 silly fetchPackageMetaData
+129 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+129 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+129 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+129 silly fetchPackageMetaData     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+129 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:261:18
+129 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:112:15)
+129 silly fetchPackageMetaData  error for express-handlebars@~3.0.1 { Error: No compatible version found: express-handlebars@~3.0.1
+129 silly fetchPackageMetaData Valid install targets:
+129 silly fetchPackageMetaData 3.0.0, 2.0.1, 2.0.0, 1.2.2, 1.2.1, 1.2.0, 1.1.0, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-rc-2, 1.0.0-rc-1, 0.0.2, 0.0.1
+129 silly fetchPackageMetaData
+129 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+129 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+129 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+129 silly fetchPackageMetaData     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+129 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:261:18
+129 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:112:15) code: 'ETARGET' }
+130 http fetch 200 https://registry.npmjs.org/mongodb/-/mongodb-2.2.30.tgz
+131 silly fetchAndShaCheck shasum 8ccd801f676c8172040c2f2b47e9602a0d5634ab
+132 verbose addTmpTarball C:\Users\e\AppData\Local\Temp\npm-4520-e2b96eda\registry.npmjs.org\mongodb\-\mongodb-2.2.30.tgz not in flight; adding
+133 verbose addTmpTarball already have metadata; skipping unpack for mongodb@2.2.30
+134 verbose correctMkdir C:\Users\e\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+135 silly cache afterAdd mongodb@2.2.30
+136 verbose afterAdd C:\Users\e\AppData\Roaming\npm-cache\mongodb\2.2.30\package\package.json not in flight; writing
+137 verbose correctMkdir C:\Users\e\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+138 verbose afterAdd C:\Users\e\AppData\Roaming\npm-cache\mongodb\2.2.30\package\package.json written
+139 silly rollbackFailedOptional Starting
+140 silly rollbackFailedOptional Finishing
+141 silly runTopLevelLifecycles Finishing
+142 silly install printInstalled
+143 verbose stack Error: No compatible version found: express-handlebars@~3.0.1
+143 verbose stack Valid install targets:
+143 verbose stack 3.0.0, 2.0.1, 2.0.0, 1.2.2, 1.2.1, 1.2.0, 1.1.0, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-rc-2, 1.0.0-rc-1, 0.0.2, 0.0.1
+143 verbose stack
+143 verbose stack     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+143 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+143 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+143 verbose stack     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+143 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:261:18
+143 verbose stack     at FSReqWrap.oncomplete (fs.js:112:15)
+144 verbose cwd C:\Users\e\WebstormProjects\node application\week9flowers
+145 error Windows_NT 10.0.14393
+146 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+147 error node v7.4.0
+148 error npm  v4.0.5
+149 error code ETARGET
+150 error notarget No compatible version found: express-handlebars@~3.0.1
+150 error notarget Valid install targets:
+150 error notarget 3.0.0, 2.0.1, 2.0.0, 1.2.2, 1.2.1, 1.2.0, 1.1.0, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-rc-2, 1.0.0-rc-1, 0.0.2, 0.0.1
+151 error notarget This is most likely not a problem with npm itself.
+151 error notarget In most cases you or one of your dependencies are requesting
+151 error notarget a package version that doesn't exist.
+151 error notarget
+151 error notarget It was specified as a dependency of 'week9flowers'
+152 verbose exit [ 1, true ]

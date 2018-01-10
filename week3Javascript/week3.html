@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Start</title>
+</head>
+<body>
+<div>
+    <p>Star Wars, <span class="rating">4</span></p>
+    <p>Back to the Future, <span class="rating">5</span></p>
+</div>
+<script>
+    var d = document.getElementsByClassName("rating")
+    for (var i = 0; i < d.length; i++) {
+        var count = parseInt(d[i].innerHTML);
+        var stars = '';
+        for (var j = 0; j < count; j++) {
+            stars+='&#9733';
+        }
+        d[i].innerHTML=stars;
+    }
+</script>
+</body>
+</html>

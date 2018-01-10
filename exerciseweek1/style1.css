@@ -1,0 +1,30 @@
+p{
+    color:blue;
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: orange;
+}
+a{
+    background-color: lightgreen;
+    text-decoration: none;
+}
+img{
+    border-style:dotted ;
+    border-width: 5px;
+    border-color: red;
+}
+#favorite-artist{
+    background-color: yellow;
+}
+.favorite-section{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin: 5px;
+}

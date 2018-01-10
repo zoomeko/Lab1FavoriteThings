@@ -1,0 +1,28 @@
+p{
+    color: blue;
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    border: solid;
+
+}
+
+body{
+    background-color: green;
+}
+
+a{
+    background-color: lightgreen;
+    text-decoration: none;
+}
+
+img{
+    border: red 5px ridge;
+}
+ul{
+    border: 1px dashed black;
+    background-color: orange;
+}

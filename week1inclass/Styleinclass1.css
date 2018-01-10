@@ -1,0 +1,14 @@
+h1{
+    color: deeppink;
+    background-color: orange;
+
+}
+
+body{
+    background-color: blue;
+}
+
+p{
+    color: black;
+    caption-side: inherit;
+}

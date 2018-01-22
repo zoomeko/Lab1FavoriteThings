@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jumbotron and Bootstrap Page</title>
+
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="bootstrap.css">
+
+
+</head>
+<body>
+<div class="container">
+    <h1><b><em>East African Country</em></b></h1>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="eastafricandropdown" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="true"> East African Country
+            <span class="caret"></span>
+        </button>
+
+        <ul class="dropdown-menu" aria-labelledby="eastafricandropdown">
+            <li><a href="http://www.citypopulation.de/Ethiopia.html"></a>Ethiopia</li>
+            <li> <a href="https://en.wikipedia.org/wiki/List_of_cities_in_Somalia"></a>Somalia</li>
+            <li><a href="https://en.wikipedia.org/wiki/List_of_cities_in_Sudan"></a>Sudan</li>
+            <li><a href="https://en.wikipedia.org/wiki/List_of_cities_in_Kenya"></a>Kenya</li>
+            <li> <a href="https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_Uganda"></a>Uganda</li>
+            <li><a href="https://en.wikipedia.org/wiki/List_of_localities_in_Djibouti"></a>Djibouti</li>
+        </ul>
+
+    </div>
+    <h1>States in USA</h1>
+    <div class=" row States">
+
+    <div class="col-xs-6">
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="usastates" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true"> USA STATES
+                <span class="caret"></span>
+
+            </button>
+
+            <ul class="dropdown-menu" aria-labelledby="usastates">
+                <li> <a href="https://en.wikipedia.org/wiki/Alabama"></a>Alabama</li>
+                <li> <a href="https://en.wikipedia.org/wiki/Alaska"></a>Alaska</li>
+                <li><a href="https://en.wikipedia.org/wiki/Arizona"></a>Arizona</li>
+            </ul>
+
+
+                </div>                </div>
+
+
+        <div class="col-xs-6">
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="capitalcities" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="true">  Capital Cities of States
+                    <span class="caret"></span>
+
+                </button>
+
+                <ul class="dropdown-menu" aria-labelledby="usastatescapitalcities">
+                    <li> <a href="http://www.montgomeryal.gov/"></a>Montgomery</li>
+                    <li> <a href="https://beta.juneau.org/"></a>Juneau</li>
+                    <li><a href="http://www.ci.phoenix.az.us/"></a>Phoenix</li>
+                </ul>
+            </div>
+        </div>
+        </div>        </div>
+</div>
+
+
+
+
+
+
+
+<div class="jumbotron">
+
+
+    <div class="row INFORMATION TECHNOLOGY" >  <h1>Information Technology Faculty</h1>
+
+
+
+        <pre>The <b>Information Technology.</b><br> In MCTC there are many Information Technology courses are given. <br>
+            Information Technology has few departments in <br>which many courses are given from certificate to associated degree.   <br>
+                        </pre>
+
+        <code>
+            The <em><b> coding courses are given </b> </em> allmost in all departments.
+            but the level of coding given in each department is different.
+
+        </code>
+
+        <div class="col-xs-6">
+
+
+            <br>
+
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="ITECH" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="true"> ITECH-DEPARTMENTS
+                    <span class="caret"></span>
+
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="ITECH-DEP">
+                    <li class="divider"></li>
+                    <li><a href="https://www.minneapolis.edu/Educational-Programs/Information-Technology"></a>About us</li>
+
+                    <li> <a href="https://mctc.decisionacademic.com/Catalog/ViewCatalog.aspx?
+                pageid=viewcatalog&topicgroupid=
+                1436&topicid=1753&loaduseredits=
+                False&_ga=2.133884750.1507065078.1516035575-736437779.1509377223">
+
+                    </a>Software development</li>
+                    <li> <a  href="https://www.minneapolis.edu/Educational-Programs/
+            Information-Technology/Computer-Forensics"></a>Computer Forencisc</li>
+                    <li>    <a href="https://www.minneapolis.edu/Educational-
+            Programs/Information-Technology/Computer-Science"></a>Computer Science</li>
+                    <li><a href="https://www.minneapolis.edu/Educational-
+            Programs/Information-Technology/Computer-Support-and-Network-Administration"></a>
+                        Computer Support And Network Administration</li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="registration">
+    <h1> Registration Form</h1>
+    <form>
+
+        <label>FIRST NAME:</label>
+        <input type="text" name="FNAME"><br>
+
+        <label>LAST NAME:</label>
+        <input type="text" name="LNAME"> <br>
+
+        <label>ENTER USER NAME:</label>
+        <input type="text" name="USERNAME" MAXLENGTH="70"> <br>
+
+       <label>email:</label>
+        <input type="email" placeholder="your eamil please" name="email" required ><br>
+
+        <label>Password:</label>
+        <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+        <label>Birth day:</label>
+        <input type="date" name="date of birth" required> <br>
+
+        <label>Conference Sessions:</label><br>
+        <input type="checkbox" name="time of attending" value="morning"  required> Morning<br>
+        <input type="checkbox" name="time of attending" value="After Noon" > AfterNoon<br>
+
+       <label>Do you need receiving email about the Conference?:</label>  <br>
+        <input type="radio" name="Yes" checked required>Yes <br>
+        <input type="radio" name="No" >No <br>
+
+      <label> T-Shirt size:</label> <br>
+        <input type="radio" name="T-Shirt" value="Small"  checked required> Small<br>
+        <input type="radio" name="T-Shirt" value="Medium" > Medium<br>
+        <input type="radio" name="T-Shirt" value="Large" > Large<br>
+
+      <label>Special Request:</label>
+        <input type="textarea" name="Special Request"> <br>
+        <input type="submit" name="formsubmit"><br><br>
+
+
+    </form>
+
+</div>
+
+
+</body>
+</html>

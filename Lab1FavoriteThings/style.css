@@ -26,3 +26,9 @@ ul{
     border: 1px dashed black;
     background-color: orange;
 }
+table{
+    background-color: blueviolet;
+}
+th{
+    color: aqua;
+}
